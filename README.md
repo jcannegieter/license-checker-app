@@ -17,6 +17,6 @@ The purpose of this application is to inspect each repository (public and privat
 1. Open a command prompt and navigate to the "license-checker-app" folder.
 2. Run the following command, substituting the two placeholders with actual values of a GitHub organization name and an access token for the user whose account will be used to access the repositories and create the pull request as needed:
 
-    node Startup.js <OrganizationName> <AccessToken>
+    node Startup.js \<OrganizationName\> \<AccessToken\>
 
 3. The application will get the list of repositories for the organization, check to see which ones have licenses, and create PULL requests for any that do not. The output window should show the progress as it performs these actions.
